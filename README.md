@@ -1,6 +1,7 @@
 # CW Paywall Marker
 
 Chrome extension for marking paid articles on CW listing pages.
+
 用來標記天下雜誌的文章列表哪一篇是付費的，若是付費就有鎖頭，僅此而已。
 
 ## Install
