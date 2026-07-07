@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "CW Paywall Marker",
+  "version": "0.1.0",
+  "description": "Mark paid CW articles on listing pages.",
+  "permissions": [],
+  "host_permissions": [
+    "https://www.cw.com.tw/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.cw.com.tw/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

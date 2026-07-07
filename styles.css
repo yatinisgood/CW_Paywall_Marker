@@ -1,0 +1,15 @@
+.cw-paywall-marker {
+  display: inline-block;
+  margin-right: 0.25em;
+  line-height: 1;
+  vertical-align: baseline;
+}
+
+.cw-paywall-scanning > .cw-paywall-marker {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.cw-paywall-paid > .cw-paywall-marker {
+  color: inherit;
+}

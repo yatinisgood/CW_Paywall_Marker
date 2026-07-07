@@ -1,5 +1,20 @@
-# cwmag_paywall_check
+# CW Paywall Marker
 
-這是一個在天下雜誌新聞列表中，可以列出哪一篇是付費文章，若有就加註符號，減少點下去會不能看的挫折感。
+Chrome extension for marking paid articles on CW listing pages.
 
-## 安裝方式：整包下載後，用chrome 擴充來安裝
+## Install
+
+1. Open `chrome://extensions/`.
+2. Turn on Developer mode.
+3. Click Load unpacked.
+4. Select this folder: `chromeEx`.
+
+## Use
+
+Open a CW listing page, for example:
+
+```text
+https://www.cw.com.tw/subchannel.action?idSubChannel=608
+```
+
+The extension scans article links on the page. If an article HTML contains a `paywall` marker, it adds `🔒` before the title.
